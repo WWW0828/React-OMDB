@@ -1,0 +1,44 @@
+.item-poster {
+    height: 670px;
+    width: 480px;
+    margin: 15px 15px;
+}
+
+.item-poster-404 {
+    height: 670px;
+    width: 480px;
+    margin: 15px 15px;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+}
+
+.item-row {
+    height: 700px;
+    width: 70%;
+    position: relative;
+    left: 15%;
+}
+
+.row-title {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.row-content {
+    background: rgb(196, 223, 233);
+    font-size: 20px;
+    height: 100%;
+}
+
+
+.info-row {
+    background: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}

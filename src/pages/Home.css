@@ -1,0 +1,44 @@
+.page-header{
+    margin-top: 15%;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.page-content {
+    position: absolute;
+    left: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+}
+
+.page-container {
+    width: 100%;
+}
+
+.btn-row {
+    display: flex;
+    align-items: center;
+}
+
+.user {
+    margin-top: 30px;
+}
+
+.loading {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.error-page {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.text-page {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}

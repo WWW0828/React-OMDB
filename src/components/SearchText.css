@@ -1,0 +1,10 @@
+.label {
+    font-size: 35px;
+    align-items: center;
+    display: flex;
+}
+
+.textbox {
+    font-size: 20px;
+    margin-left: 10px;
+}

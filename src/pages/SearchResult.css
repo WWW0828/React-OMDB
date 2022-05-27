@@ -1,0 +1,57 @@
+.movie-container {
+    position: relative;
+    margin: 5px 8px;
+    width: 250px;
+    height: 360px;
+    transition: 0.2s;
+    text-align: center;
+    align-items: center;
+}
+
+.movie-container:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.poster {
+    margin: 5px;
+    width: 200px;
+    height: 300px;
+}
+
+.poster-404 {
+    margin: 5px;
+    width: 200px;
+    height: 300px;
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+}
+
+.back-to-result {
+    margin-left: 50px;
+}
+.back-to-home {
+    margin-left: 80px;
+}
+
+.result-page-header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.results {
+    margin-top: 20px;
+}
+
+.next-last-btn {
+    margin-left: 5px;
+}
+
+.page-num {
+    margin-left: 80px;
+    font-size: 25px;
+}
