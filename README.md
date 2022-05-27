@@ -1,6 +1,7 @@
 # React Code Challenge
-Weng, Yu-Hsin (Chloe)
-wwweng828@gapp.nthu.edu.tw
+- Weng, Yu-Hsin (Chloe)
+- email: wwweng828@gapp.nthu.edu.tw
+
 ## Set up instruction
 - clone this repository
 ```
