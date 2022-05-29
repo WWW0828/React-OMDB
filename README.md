@@ -1,6 +1,7 @@
 # React Code Challenge
-Weng, Yu-Hsin (Chloe)
-wwweng828@gapp.nthu.edu.tw
+- Weng, Yu-Hsin (Chloe)
+- email: wwweng828@gapp.nthu.edu.tw
+- Any comment? -> [Google Form](https://forms.gle/T6eyGiUDNdMnmDW58)
 ## Set up instruction
 - clone this repository
 ```
@@ -39,15 +40,15 @@ npm start
     - I've only done the PC version of the app, because I didn't have enough time, and I'm really sorry about the incompleteness.
     - I've used RWD before, and I know it can let the website usable on different devices
     - So my first improvement will be using RWD to let the pages also be usable on mobile and tablet devices.
-
 - Fix the bug of going back to home page from error page
     - For the current version, I have to click `Back to home` button twice in order to go back to home page.
     - after first click, it will fo back to the same error page, but if I click it again, it can redirect to the home page.
-
 - Better appearance
     - After figuring out how does react work, I first started develop the features of the website, which leads to not having enough time to better its appearance.
     - The current website is designed simply, so I would like to make it more better and more friendly for the user.
-
+- User input format checking [done in 5/30]
+    - For the current version, if a user type 'a' in year's textbox, there won't pop up any alert or error
+    - But we know that year should be an integer, to better my app, I'd like to check the user input format before sending it to the API. 
 
 ## What will I do differently if I were allocated more time
 - In my implementation, I use button and state to change the pages.
