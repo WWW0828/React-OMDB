@@ -81,7 +81,7 @@ function SearchResultPage(props) {
         {movies.map((movie, index) => {
           if (movie.Poster !== 'N/A' ) {
             return (
-            <Col className='movie-container' onClick={() => itemOnClick(movie)}>
+            <Col key={movie.Title} className='movie-container' onClick={() => itemOnClick(movie)}>
                 <div>
                   <img src={movie.Poster} alt='movie' className='poster'></img>
                 </div>
@@ -90,7 +90,7 @@ function SearchResultPage(props) {
             );
           }else {
             return(
-              <Col className='movie-container' onClick={() => itemOnClick(movie)}>
+              <Col key={movie.Title} className='movie-container' onClick={() => itemOnClick(movie)}>
                 <div>
                   <div className='poster-404'>
                     <div>No Poster Found</div>

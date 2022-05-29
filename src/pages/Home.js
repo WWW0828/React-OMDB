@@ -90,14 +90,27 @@ function HomePage() {
       let wordstoshow = `${totalResult} of ${typeValue}`;
       wordstoshow += ` "${titleValue}" found`;
       if(yearValue) {
-        wordstoshow += ` in year ${yearValue}`;
-      }
-
-      return (
-        <div className="page">
-          <SearchResultPage movies={movies} text={wordstoshow} total={totalResult} onClose={closeResult} searchUrl={searchUrl + '&page='}/>
-        </div>
-      );
+        let year_num = Number(yearValue);
+        console.log(`year_num(${year_num})`)
+        if(!Number.isNaN(year_num) && Number.isInteger(year_num) && year_num > 0) {
+          console.log('pass');
+          wordstoshow += ` in year ${year_num.toString()}`;
+          return (
+            <div className="page">
+              <SearchResultPage movies={movies} text={wordstoshow} total={totalResult} onClose={closeResult} searchUrl={searchUrl + '&page='}/>
+            </div>
+          );
+        } else {
+          alert('Year should be a positive integer');
+          setShowResult(false);
+        } 
+      } else {
+        return (
+          <div className="page">
+            <SearchResultPage movies={movies} text={wordstoshow} total={totalResult} onClose={closeResult} searchUrl={searchUrl + '&page='}/>
+          </div>
+        );
+      } 
     }
     
   }
