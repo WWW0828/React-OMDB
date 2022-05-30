@@ -1,7 +1,7 @@
 # React Code Challenge
-- Weng, Yu-Hsin (Chloe)
+- Weng, Yu-Hsin 翁玉芯
 - email: wwweng828@gapp.nthu.edu.tw
-- Any comment? -> [Google Form](https://forms.gle/T6eyGiUDNdMnmDW58)
+
 ## Set up instruction
 - clone this repository
 ```
@@ -45,7 +45,7 @@ npm start
     - after first click, it will fo back to the same error page, but if I click it again, it can redirect to the home page.
 - Better appearance
     - After figuring out how does react work, I first started develop the features of the website, which leads to not having enough time to better its appearance.
-    - The current website is designed simply, so I would like to make it more better and more friendly for the user.
+    - The current website is designed simply, so I would like to make it better and more friendly for the user.
 - User input format checking [done in 5/30]
     - For the current version, if a user type 'a' in year's textbox, there won't pop up any alert or error
     - But we know that year should be an integer, to better my app, I'd like to check the user input format before sending it to the API. 
