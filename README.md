@@ -1,6 +1,4 @@
 # 2022 Coding Challenge from SparkAmplify, Inc
-- Yu-Hsin Weng
-- email: yuhsin1614@g.ucla.edu
 - Skills: HTML5, CSS, Javascript, React.js, Call API, Data Analysis
 
 ## Overview
