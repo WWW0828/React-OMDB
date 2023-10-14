@@ -1,59 +1,36 @@
-# React Code Challenge
-- Weng, Yu-Hsin 翁玉芯
-- email: wwweng828@gapp.nthu.edu.tw
+# 2022 Coding Challenge from SparkAmplify, Inc
+- Yu-Hsin Weng
+- email: yuhsin1614@g.ucla.edu
+- Skills: HTML5, CSS, Javascript, React.js, Call API, Data Analyze
+
+## Overview
+- This project contains the following 3 pages that were built with React:
+    - A "Home" page
+    - A "Search result" page
+    - A "Item detail" page
+- The pages are also usable on mobile and tablet devices.
+
+### "Home" Page
+- Refer to the [screens/home.png](./screens/home.png) screen.
+- This is the `index.html` screen that displayed 2 tiles, which link to the "Series" page and the "Movies" page.
+
+### "Search result" and "Item detail" Pages
+- Refer to the [screens/search-result.png](./screens/search-result.png) and [screens/item-detail.png](./screens/item-detail.png) screens.
+
+- Fetched data from [OMDB API](http://www.omdbapi.com/)
+- Also handled the loading and error states, of fetching the JSON feed:
+    - "Loading" state [screens/loading.png](./screens/loading.png)
+    - "Error" state [screens/error.png](./screens/error.png)
+
+### Project Demo
+https://github.com/WWW0828/React-project/assets/67411184/2385b4a6-862f-437b-98be-b9358d50c14b
 
 ## Set up instruction
-- clone this repository
-```
-git clone https://github.com/WWW0828/TCA-SparkAmplify.git
-```
-- open terminal in this project folder
-```
-cd [project path]
-```
-- install packages
-```
-npm install
-```
-- start the localhost
-```
-npm start
-```
-- Run the project with http://localhost:3000/
+1. clone this repository: `git clone https://github.com/WWW0828/React-project.git`
+2. open terminal in this project folder: `cd [project path]`
+3. install packages: `npm install`
+4. start the server: `npm start`
 
-## How I decide which technologies to use as part of my solution
-- I'm tring to make my code simple, readable, reusable and maintainable, also, I tried to avoid writing similar codes so many times.
-- Home Page
-    - I collect searching data like title, type and year in this page
-    - after the search btn is clicked, I'll send those information to the API
-    - and get the return data from it, then pass needed data(url, totalResults, text to show ...) to the search result page
-- Search Results
-    - since the API will only return 10 results at a time, I should also get `totalResults` from the API's return json
-    - and handle user request for next page or last page
-    - I maintain a state called `page` in Search Results Component, and if the user click `Next` then I fetch data from the original url + page=${page}, and show the results to the screen
-- Item Detail
-    - In this page I just simply show the movie's information, and make a button to let user go back to Search Results Page
-- By the way, there's a demo video in this repository, for you to quickly know what I have done.
-
-## Improvements to my submission
-- RWD
-    - I've only done the PC version of the app, because I didn't have enough time, and I'm really sorry about the incompleteness.
-    - I've used RWD before, and I know it can let the website usable on different devices
-    - So my first improvement will be using RWD to let the pages also be usable on mobile and tablet devices.
-- Fix the bug of going back to home page from error page
-    - For the current version, I have to click `Back to home` button twice in order to go back to home page.
-    - after first click, it will fo back to the same error page, but if I click it again, it can redirect to the home page.
-- Better appearance
-    - After figuring out how does react work, I first started develop the features of the website, which leads to not having enough time to better its appearance.
-    - The current website is designed simply, so I would like to make it better and more friendly for the user.
-- User input format checking [done in 5/30]
-    - For the current version, if a user type 'a' in year's textbox, there won't pop up any alert or error
-    - But we know that year should be an integer, to better my app, I'd like to check the user input format before sending it to the API. 
-
-## What will I do differently if I were allocated more time
-- In my implementation, I use button and state to change the pages.
-- while I think the more standard way to switch from page to page is to use `Router`, `Route`, `Switch`, `Link` in React.
-- However, after many tries, I still couldn't figure out the solution.
-- I've already known how to do it if I didn't need to pass any data to the pages' component.
-- But I failed in this code challenge, since I collect data in Home Page, and should pass all movies info to the Search Result Page.
-- If I were allocated more time, I will try to successfully complete the pages transform feature using Route.
+## References
+- [React](https://facebook.github.io/react/)
+- [OMDB API](http://www.omdbapi.com/)
