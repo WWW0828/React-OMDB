@@ -1,5 +1,7 @@
 # 2022 Coding Challenge from SparkAmplify, Inc
 - Skills: HTML5, CSS, Javascript, React.js, Call API, Data Analysis
+## Project Demo
+https://github.com/WWW0828/React-project/assets/67411184/2385b4a6-862f-437b-98be-b9358d50c14b
 
 ## Overview
 - This project contains the following 3 pages that were built with React:
@@ -19,9 +21,6 @@
 - Also handled the loading and error states, of fetching the JSON feed:
     - "Loading" state [screens/loading.png](./screens/loading.png)
     - "Error" state [screens/error.png](./screens/error.png)
-
-### Project Demo
-https://github.com/WWW0828/React-project/assets/67411184/2385b4a6-862f-437b-98be-b9358d50c14b
 
 ## Set up instruction
 1. clone this repository: `git clone https://github.com/WWW0828/React-project.git`
