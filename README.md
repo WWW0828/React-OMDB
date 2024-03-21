@@ -1,4 +1,4 @@
-# 2022 Coding Challenge from SparkAmplify, Inc
+# OMDB Movies & Series Searching Website
 - Skills: HTML5, CSS, Javascript, React.js, Call API, Data Analysis
 ## Project Demo
 https://github.com/WWW0828/React-project/assets/67411184/2385b4a6-862f-437b-98be-b9358d50c14b
